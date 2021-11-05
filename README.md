@@ -6,7 +6,7 @@ Now that Bobby has proven his SQL chops, his manager has given both of you two m
 
 ##### Results:
 
-![]()
+![](https://github.com/labinskin/Pewlett-Hackard-Analysis/blob/main/retiring_titles_table.png)
 
 - Based on the retiring_titles table above:
 
@@ -26,23 +26,21 @@ Now that Bobby has proven his SQL chops, his manager has given both of you two m
 
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-- ![]()
+- ![](https://github.com/labinskin/Pewlett-Hackard-Analysis/blob/main/retiring_titles_table.png)
 
   - A quick sum of the retirement_titles table reveals that there are 90,398 employees that will be eligible to retire from the company. This is a large section of the workforce at the company and will not be easily replaced.
 
   - The two largest areas come from senior positions, Staff and Engineer, making these areas hardest hit. With Engineer and Staff being the third and fourth leading titles for retirements respectively. The Staff and Engineer departments are going to be the hardest hit and need the most replacements, with 45,397 Engineers in total retiring, 40,497 Staff in total retiring.
 
-- ![]()
-
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
   - Adding the Senior Staff and Senior Engineer totals together, there are 57,668 senior level positions retiring (or approximately 64% of the total). This provides a solid qualified based to mentor the next generation. However, there are some reservations.
 
-  ![]()
+  ![](https://github.com/labinskin/Pewlett-Hackard-Analysis/blob/main/total_eligible_for_mentorship.png)
 
   - To get further insight into the mentorship data, I broke it down two different ways. This table shows the total number of those eligible for mentorship from what Bobby's manager requested. That total is 1,549, a mere fraction of the total number retiring or .017% of the total. There are not nearly enough employees in the query run to replace the massive retiring tsunami.
 
-  ![]()
+  ![](https://github.com/labinskin/Pewlett-Hackard-Analysis/blob/main/mentorship_breakdown_by_title.png)
 
   - The second way I broke down the mentorship data was by job title. The good news is that there eligible employees in the Staff and Senior Engineer titles, with fewer being around in the Engineer and Senior Staff positions.
 
